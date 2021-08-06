@@ -46,7 +46,7 @@ CREATE TABLE `classroom` (
   `email_id` varchar(50) NOT NULL,
   `branch` varchar(50) NOT NULL,
   `semester` varchar(50) NOT NULL,
-  `code` int(11) NOT NULL,
+  `code` varchar(50) NOT NULL,
   `content` varchar(50) NOT NULL,
   `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
